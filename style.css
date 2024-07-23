@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#gameCanvas {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Максимальная ширина для ограничения размера на больших экранах */
+    border: 1px solid #000;
+    background-color: #87CEEB; /* Голубой фон */
+}
